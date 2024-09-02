@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flomic Logistics Pvt. Ltd</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Flomic Logistics Pvt. Ltd">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-slides">
+            <div class="slide active" style="background-image: url('img/hero-bg1.jpg');">
+                <div class="overlay">
+                    <h1>Responsive Layout</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('img/hero-bg2.jpg');">
+                <div class="overlay">
+                    <h1>Innovative Design</h1>
+                    <p>Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('img/hero-bg3.jpg');">
+                <div class="overlay">
+                    <h1>Creative Solutions</h1>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+    </section>
+    <div class="line"></div>
+
+    <section id="about">
+        <div class="container">
+            <h2>Welcome to Template</h2>
+            <p>Morbi aliquet dapibus pharetra. Aliquam erat volutpat. Integer vitae auctor nisi. Nullam in magna arcu.</p>
+            <div class="line"></div>
+            <div class="team-heading" style="padding: auto; ">
+                <p style="font-weight: bold;margin-bottom: 2em;">About Us</p>
+            </div>
+            <div class="team">
+                <div class="member">
+                    <img src="image/cristiano.jpg" alt="Christina Welldone">
+                    <h3>Christina Welldone</h3>
+                    <p>Marketing Director</p>
+                </div>
+                <div class="member">
+                    <img src="image/cheri.jpg" alt="Teri Belle">
+                    <h3>Teri Belle</h3>
+                    <p>Creative Director</p>
+                </div>
+                <div class="member">
+                    <img src="image/teri.jpg" alt="Tawana Cherry">
+                    <h3>Tawana Cherry</h3>
+                    <p>Company President</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <i class="fas fa-bolt"></i>
+                    <h3>The Best Support Ever</h3>
+                </div>
+                <div class="service">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Fully Responsive Design</h3>
+                </div>
+                <div class="service">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Unlimited Layouts Options</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="image/paul.jpg" alt="Fantasy">
+                    <h3>Fantasy</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image/botanist.jpg" alt="Botany">
+                    <h3>Botany</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image/universe.jpg" alt="Universe">
+                    <h3>Universe</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image/channel.jpg" alt="Channel">
+                    <h3>Channel</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image/dragonfly.jpg" alt="Dragonfly">
+                    <h3>Dragonfly</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image/titanium.jpg" alt="Titanium">
+                    <h3>Titanium</h3>
+                </div>
+            </div>
+            <a href="#" class="btn load-more">Load More</a>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div id="map"></div>
+            <form>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <div class="line"></div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Flomic Logistics Pvt. Ltd</p>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
